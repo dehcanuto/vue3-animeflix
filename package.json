@@ -13,7 +13,8 @@
     "lint:oxlint": "oxlint . --fix -D correctness --ignore-path .gitignore",
     "lint:eslint": "eslint . --fix",
     "lint": "run-s lint:*",
-    "format": "prettier --write src/"
+    "format": "prettier --write src/",
+    "tailwind:init": "tailwindcss init -p"
   },
   "dependencies": {
     "pinia": "^3.0.1",
@@ -30,6 +31,7 @@
     "@vue/eslint-config-typescript": "^14.5.0",
     "@vue/test-utils": "^2.4.6",
     "@vue/tsconfig": "^0.7.0",
+    "autoprefixer": "^10.4.21",
     "eslint": "^9.22.0",
     "eslint-plugin-oxlint": "^0.16.0",
     "eslint-plugin-vue": "~10.0.0",
@@ -37,11 +39,14 @@
     "jsdom": "^26.0.0",
     "npm-run-all2": "^7.0.2",
     "oxlint": "^0.16.0",
+    "postcss": "^8.5.4",
     "prettier": "3.5.3",
+    "tailwindcss": "^3.4.17",
     "typescript": "~5.8.0",
     "vite": "^6.2.4",
     "vite-plugin-vue-devtools": "^7.7.2",
     "vitest": "^3.1.1",
     "vue-tsc": "^2.2.8"
-  }
+  },
+  "packageManager": "yarn@4.4.1+sha224.fd21d9eb5fba020083811af1d4953acc21eeb9f6ff97efd1b3f9d4de"
 }
