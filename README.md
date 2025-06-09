@@ -1,10 +1,13 @@
-# vue3-animeflix
+![vue3-animeflix](.github/animeflix.png)
 
-This template should help get you started developing with Vue 3 in Vite.
+## 🛠️ Desenvolvido com
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+*  [NodeJS](https://nodejs.org/en/docs/) - Ambiente de execução JavaScript
+*  [Vue3](https://vuejs.org/) - Framework web with TypeScript
+*  [Vite](https://vite.dev/) - Framework web with TypeScript
+*  [Pinia](https://pinia.vuejs.org/) - Framework para gerenciamento de estado.
+*  [Tailwind CSS](https://tailwindcss.com/docs) - Framework para estilização
+*  [json-server](https://github.com/typicode/json-server) - Framework para criação da api
 
 ## Type Support for `.vue` Imports in TS
 
@@ -24,6 +27,13 @@ yarn
 
 ```sh
 yarn dev
+```
+
+
+#### json-server
+
+```bash
+npx json-server db.json
 ```
 
 ### Type-Check, Compile and Minify for Production
