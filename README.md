@@ -1,4 +1,4 @@
-![vue3-animeflix](.github/animeflix.png)
+![vue3-animeflix](.github/animeflix-small.png)
 
 ## 🛠️ Desenvolvido com
 
