@@ -1,23 +1,30 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import { RouterView } from 'vue-router'
+import TopHeader from '@/components/molecules/TopHeader.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <TopHeader />
+  <div class="flex-1 justify-between pt-32">
+    <RouterView />
+    <footer className="py-4 border-t border-[#292929] mt-12">
+      <div className="container mx-auto">
+        <div className="flex items-center justify-center lg:justify-between text-xs">
+          <div className="flex flex-col lg:flex-row items-center gap-6">
+            <span className="text-sm">© Flow 2025</span>
+            <a href="#">Política de Privacidade</a>
+            <a href="#">Termos de Uso</a>
+          </div>
+          <div className="hidden lg:flex items-center gap-3">
+            <p>Desenvolvido por <strong>André Canuto</strong></p>
+            <span className="px-2 bg-[#EE3965] text-white font-semibold uppercase rounded-sm">
+              Beta
+            </span>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 </template>
 
 <style scoped>
