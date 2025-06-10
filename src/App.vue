@@ -5,19 +5,19 @@ import TopHeader from '@/components/molecules/TopHeader.vue'
 
 <template>
   <TopHeader />
-  <div class="flex-1 justify-between pt-32">
+  <div class="flex-1 justify-between pt-24">
     <RouterView />
-    <footer className="py-4 border-t border-[#292929] mt-12">
-      <div className="container mx-auto">
-        <div className="flex items-center justify-center lg:justify-between text-xs">
-          <div className="flex flex-col lg:flex-row items-center gap-6">
-            <span className="text-sm">© Flow 2025</span>
+    <footer class="py-4 border-t border-[#292929] mt-12">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-center lg:justify-between text-xs">
+          <div class="flex flex-col lg:flex-row items-center gap-6">
+            <span class="text-sm">© Flow 2025</span>
             <a href="#">Política de Privacidade</a>
             <a href="#">Termos de Uso</a>
           </div>
-          <div className="hidden lg:flex items-center gap-3">
+          <div class="hidden lg:flex items-center gap-3">
             <p>Desenvolvido por <strong>André Canuto</strong></p>
-            <span className="px-2 bg-[#EE3965] text-white font-semibold uppercase rounded-sm">
+            <span class="px-2 bg-[#EE3965] text-white font-semibold uppercase rounded-sm">
               Beta
             </span>
           </div>

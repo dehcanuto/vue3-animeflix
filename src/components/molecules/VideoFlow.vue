@@ -31,7 +31,7 @@ console.log('animes', props.animes)
 </script>
 <template>
   <Swiper
-    :modules="[Navigation, Pagination, Scrollbar, A11y]"
+    :modules="[A11y]"
     :slides-per-view="6.5"
     :space-between="20"
     @swiper="onSwiper"
